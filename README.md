@@ -2,16 +2,13 @@
 This is a C++11 friendly mirror of GraphCuts. It generates no warnings when
 compiled on MacOS with clang.
 
- ##############################################################################
-#                                                                            #
-#    GCoptimization - software for energy minimization with graph cuts       #
-#                        Version 3.0                                         #
-#    http://www.csd.uwo.ca/faculty/olga/software.html                        #
-#                                                                            #
-#    Copyright 2007-2010 Olga Veksler  <olga@csd.uwo.ca>                     #
-#                        Andrew Delong <andrew.delong@gmail.com>             #
-#                                                                            #
-##############################################################################
+    GCoptimization - software for energy minimization with graph cuts       
+                        Version 3.0                                         
+    http://www.csd.uwo.ca/faculty/olga/software.html                        
+                                                                            
+    Copyright 2007-2010 Olga Veksler  <olga@csd.uwo.ca>                     
+                        Andrew Delong <andrew.delong@gmail.com>             
+                                                                            
 
   C++ requires at least Visual C++ 2005 (VC8) or GCC 4.03. Supports 32 or 64-bit.
   See matlab/README.TXT for bundled MATLAB wrapper and its documentation.
