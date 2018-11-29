@@ -1,7 +1,3 @@
-# GraphCuts
-This is a C++11 friendly mirror of GraphCuts. It generates no warnings when
-compiled on MacOS with clang.
-
  ##############################################################################
 #                                                                            #
 #    GCoptimization - software for energy minimization with graph cuts       #
