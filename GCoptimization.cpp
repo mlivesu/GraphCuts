@@ -1170,7 +1170,7 @@ void GCoptimization::updateLabelingInfo(bool updateCounts, bool updateActive, bo
 				lc->active = false;
 
 			EnergyType energy = 0;
-            CG3_SUPPRESS_WARNING(energy);
+            SUPPRESS_WARNING(energy);
 			for ( LabelID l = 0; l < m_num_labels; ++l ) 
 				if ( m_labelCounts[l] )
 					for ( LabelCostIter* lci = m_labelcostsByLabel[l]; lci; lci = lci->next ) 
